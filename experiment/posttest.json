@@ -1,0 +1,260 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What Morse code sequence represents the special character \"Dollar Sign ($)\"?",
+      "answers": {
+        "a": "...-..-",
+        "b":  ".-.-..-",
+        "c": "..-..-..",
+        "d":  ".-.-."
+      },
+      "explanations": {
+        "a": "The Morse code sequence \"...-..-\" represents the special character \"Dollar Sign ($)\".",
+        "b": "This Morse code sequence does not represent the special character \"Dollar Sign ($).\"",
+        "c": "This Morse code sequence does not represent the special character \"Dollar Sign ($).\"",
+        "d": "This Morse code sequence does not represent the special character \"Dollar Sign ($).\""
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In Morse code, the sequence \"--..--\" corresponds to which special character?",
+      "answers": {
+        "a": "Exclamation Mark",
+        "b": "Comma",
+        "c": "Quotation Mark",
+        "d": "Semicolon"
+      },
+      "explanations": {
+        "a": "\"Exclamation Mark\" is incorrect because the Morse code for the exclamation mark is \"-.-.--\".",
+        "b": "The Morse code sequence \"--..--\" represents a comma.",
+        "c": "\"Quotation Mark\" is incorrect because the Morse code for the quotation mark is \".-..-.\".",
+        "d": " \"Semicolon\" is incorrect because the Morse code for the semicolon is \"-.-.-.\"."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In Morse code, which special character is represented by the sequence \"-....-\"?",
+      "answers": {
+        "a": "Period (.)",
+        "b": "Dollar Sign ($)",
+        "c": "Minus (-)",
+        "d": "Parenthesis Close ())"
+      },
+      "explanations": {
+        "a": "\"Period (.)\" is incorrect because the Morse code for the period is \".-.-.-.\".",
+        "b": " \"Dollar Sign ($)\" is incorrect because the Morse code for the dollar sign is \"...-..-.\".",
+        "c": "The Morse code sequence \"-....-\" represents the special character Minus (-)",
+        "d": "\"Parenthesis Close ())\" is incorrect because the Morse code for the parenthesis close is \"-.--.-.\"."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What Morse code sequence represents the special character Quotation Mark (\") ?",
+      "answers": {
+        "a": ".-..-.",
+        "b": "...-...",
+        "c": "..--.-.",
+        "d": ".-...-."
+      },
+      "explanations": {
+        "a": "The Morse code sequence that represents the special character \"Quotation Mark (\")\"  is :\" .-..-.\".",
+        "b": "This does not correspond to the quotation mark; it has a different sequence.",
+        "c": "This does not correspond to the quotation mark; it represents a different character.",
+        "d": "This does not correspond to the quotation mark; it has a different sequence."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "In Morse code, which sequence of dots and dashes represents the special character \"At Sign (@)\"?",
+      "answers": {
+        "a": ".--.-.",
+        "b": "..--..-",
+        "c": "-.--.",
+        "d": ".-...-."
+      },
+      "explanations": {
+        "a": "The Morse code representation for the \"At Sign (@)\" is \".--.-.\"",
+        "b": " This does not correspond to the \"@\" symbol.",
+        "c": "This does not correspond to the \"@\" symbol; it represents a different character.",
+        "d": "This does not correspond to the \"@\" symbol; it has a different sequence."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is the Morse code representation for the special character \"Colon (:)\"?",
+      "answers": {
+        "a": "..-.-..",
+        "b": "---...",
+        "c": "..--..",
+        "d": "-.--.-"
+      },
+      "explanations": {
+        "a": "This sequence does not represent the colon symbol; it is a different character.",
+        "b": "The Morse code representation for the special character \"Colon (:)\"is:\"---...\".",
+        "c": "This sequence does not represent the colon symbol; it is a different character.",
+        "d": "This sequence does not represent the colon symbol; it is a different character."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In Morse code, what is the representation for the special character \"Apostrophe (')\"?",
+      "answers": {
+        "a": ".----.",
+        "b": "--.--",
+        "c": "..--..",
+        "d": "-....-"
+      },
+      "explanations": {
+        "a": "The Morse code representation for the special character \"Apostrophe (')\" is:\".----.\"",
+        "b": "This sequence does not represent the apostrophe symbol; it is a different character.",
+        "c": "This sequence does not represent the apostrophe symbol; it is a different character.",
+        "d": "This sequence does not represent the apostrophe symbol; it is a different character."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In Morse code, what does the sequence \"-.--.-\" represent?",
+      "answers": {
+        "a": "Dollar Sign ($)",
+        "b": "Quotation Mark (\")",
+        "c": "Parenthesis Close ())",
+        "d": "Exclamation Mark (!)"
+      },
+      "explanations": {
+        "a": "The Morse code representation for the dollar sign is \"...-..-\" not \"-.--.-.\".",
+        "b": "The Morse code representation for the quotation mark is \".-..-.\" not \"-.--.-.\".",
+        "c": "The Morse code sequence \"-.--.-\" represents the special character \"Parenthesis Close ())\".",
+        "d": "The Morse code representation for the exclamation mark is \"-.-.--\" not \"-.--.-.\"."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "The Morse code sequence \".......\" represents which special character?",
+      "answers": {
+        "a": "Period (.)",
+        "b": "Comma (,)",
+        "c": "Parenthesis Close ( )",
+        "d": "Dollar Sign ($)"
+      },
+      "explanations": {
+        "a": "The Morse code sequence \".......\" represents the special character \"Period (.)\".",
+        "b": "The Morse code representation for a comma is \"--..--\" not \".-.-.-.\".",
+        "c": "The Morse code representation for a parenthesis close is \"-.--.-\" not \".-.-.-.\".",
+        "d": "The Morse code representation for the dollar sign is \"...-..-\" not \".-.-.-.\"."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "In Morse code, what sequence of dots and dashes represents the special character \"Underscore (_)\"?",
+      "answers": {
+        "a": "..--.-",
+        "b": ".-.-.",
+        "c": "-..-.",
+        "d": "..-...-"
+      },
+      "explanations": {
+        "a": "The Morse code representation for the special character \"Underscore(_)\" is \"..--.-\"",
+        "b": "This sequence does not represent the underscore and is not a standard Morse code character.",
+        "c": "This sequence does not represent the underscore.",
+        "d": "This sequence does not represent the underscore and is not a standard Morse code character."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the Morse code representation for the special character \"Ampersand (&)\"?",
+      "answers": {
+        "a": ".-...",
+        "b": ".-.-.-.",
+        "c": "..-...",
+        "d": "-...-"
+      },
+      "explanations": {
+        "a": "This sequence does not correspond to the ampersand symbol in Morse code.",
+        "b": "This sequence also does not represent the ampersand symbol. ",
+        "c": "The Morse code representation for the special character \"Ampersand (&)\" is  \"..-...\".",
+        "d": "This sequence does not represent the ampersand symbol. In Morse code, it stands for the letter \"B\"."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse code representation of underscore[_] and parenthesis close[)]?",
+      "answers": {
+        "a": "\"..--..\"and\"-.-.-.\"",
+        "b": "\"..--.-\"and\"-.--.-\"",
+        "c": "\"--..--\"and\"---...\"",
+        "d": "\"-.-.--\"and\".-..-.\""
+      },
+      "explanations": {
+        "a": "This option incorrectly represents both the underscore and the parenthesis close.",
+        "b": "The Morse code representation of underscore[_] and parenthesis close[)] are \"..--.-\"and \"-.--.-\".",
+        "c": "This option incorrectly represents both the underscore and the parenthesis close.",
+        "d": "This option incorrectly represents both the underscore and the parenthesis close."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the Morse Code representation of \".--.-.\" and \"-..-.\"?",
+      "answers": {
+        "a": "Comma and slash.",
+        "b": "Plus and minus.",
+        "c": "At-sign and slash",
+        "d": "Double dash and ampersand."
+      },
+      "explanations": {
+        "a": "This option doesn't accurately represent the given Morse code sequences. ",
+        "b": "This option doesn't accurately represent the given Morse code sequences. ",
+        "c": "The Morse Code representation of \".--.-.\" and \"-..-.\" are At-sign and slash.",
+        "d": "This option doesn't accurately represent the given Morse code sequences. "
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What does the Morse code sequence \"-.--.\" signify?",
+      "answers": {
+        "a": "Parenthesis open",
+        "b": " Colon",
+        "c": "Plus sign",
+        "d": "Comma"
+      },
+      "explanations": {
+        "a": "The Morse code sequence \"-.--.\" represents the special character \"Parenthesis open (\".",
+        "b": "This option is incorrect. The Morse code for the Colon is different and not represented by \"-.--.\".",
+        "c": "This option is incorrect. The Morse code for the plus sign is different and not represented by \"-.--.\".",
+        "d": "This option is incorrect. The Morse code for a comma is \"--..--\" and not represented by \"-.--.\"."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "In Morse code, the special character \"Doubledash (=)\" is represented as:",
+      "answers": {
+        "a": " -....-",
+        "b": "-...-",
+        "c": "..-...",
+        "d": "-.-.--."
+      },
+      "explanations": {
+        "a": "The Morse code sequence \"-....-\" does not represent a doubledash (=) but a different character.",
+        "b": "The Morse code representation for the special character \"DoubleDash(=)\" is \"-...-\".",
+        "c": "The Morse code sequence \"..-...\" does not represent a doubledash (=) but a different character.",
+        "d": "The Morse code sequence \"-.-.--.\" does not represent a doubledash (=) but a different character."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    }
+  ]
+}

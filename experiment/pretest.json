@@ -1,0 +1,227 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What are special characters in Morse code also known as?",
+      "answers": {
+        "a": " Alphanumeric characters",
+        "b": " Punctuation marks",
+        "c": "Symbols",
+        "d": "Letters"
+      },
+      "explanations": {
+        "a": "This option is incorrect. Special characters in Morse code are not considered alphanumeric characters.",
+        "b": "This option is partially correct. Special characters in Morse code can be considered a subset of punctuation marks.",
+        "c": "Special characters in Morse code are also known as symbols.",
+        "d": "This option is incorrect. Letters refer to the standard characters of the alphabet. "
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why are the sequences for special characters in Morse code standardized?",
+      "answers": {
+        "a": "To make communication more complex",
+        "b": "To confuse operators",
+        "c": "To ensure consistent communication",
+        "d": "To create ambiguity"
+      },
+      "explanations": {
+        "a": "The standardization of sequences for special characters in Morse code is not intended to make communication more complex.",
+        "b": "The standardization of Morse code is not designed to confuse operators. ",
+        "c": "The sequences for special characters in Morse code are standardized to ensure consistent and clear communication. Standardization helps prevent ambiguity and confusion during Morse code transmissions.",
+        "d": "Creating ambiguity is the opposite of the goal of Morse code standardization.  "
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Each special character in Morse code is represented by a unique sequence of:",
+      "answers": {
+        "a": "Numbers and letters",
+        "b": "Dots and dashe",
+        "c": "Special symbols",
+        "d": "Alphanumeric characters"
+      },
+      "explanations": {
+        "a": "Special characters in Morse code are not represented by numbers and letters.",
+        "b": "Each special character in Morse code is represented by a unique sequence of dots (.) and dashes (-).",
+        "c": "The term \"special symbols\" might be a bit broad.",
+        "d": " Special characters are not alphanumeric characters."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why do we use exclamation mark[!]?",
+      "answers": {
+        "a": "it is used for questioning.",
+        "b": "it is used to convey a strong emphasis or excitement.",
+        "c": "it is used to concatenate characters. ",
+        "d": "it is used to continue a line."
+      },
+      "explanations": {
+        "a": "In Morse code, the exclamation mark \"!\" is not used to indicate questioning. ",
+        "b": "Making it clear that the sender wants to convey a strong emotion and sense of urgency in the communication.",
+        "c": "In Morse code, the exclamation mark is not used for concatenation.",
+        "d": "In Morse code, the exclamation mark is not used to continue a line."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Why do we use the question mark[?] symbol?",
+      "answers": {
+        "a": "it is used for deleting a text.",
+        "b": "it is used to answer a question.",
+        "c": "it is used to seek clarification or enquire.",
+        "d": "it is used to end a sentence."
+      },
+      "explanations": {
+        "a": "In Morse code, the question mark symbol \"?\" is not used for deleting text.",
+        "b": "Morse code symbols do not typically represent the act of answering questions. ",
+        "c": "The [?] symbol is employed to seek clarification or enquire about information.",
+        "d": "The period (.) and other punctuation marks are typically used to indicate the end of a sentence in Morse code."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "For which Symbol is there no standard representation in Morse code?",
+      "answers": {
+        "a": "/",
+        "b": ".",
+        "c": "+",
+        "d": "!"
+      },
+      "explanations": {
+        "a": "The standardization of sequences for special characters in Morse code is not intended to make communication more complex.",
+        "b": "There is a standard representation in Morse code for the \".\" symbol, which is \".-.-.-.\"",
+        "c": "there is a standard representation in Morse code for the \"!\" symbol, which is \"-.-.--.\"",
+        "d": "There is no standard representation on exclamation mark in morse code."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What Morse code character is used to separate individual characters?",
+      "answers": {
+        "a": "Question Mark (?)",
+        "b": "Slash (/)",
+        "c": "Period (.)",
+        "d": "Exclamation Mark (!)"
+      },
+      "explanations": {
+        "a": "In Morse code, the question mark is not used to separate individual words.",
+        "b": "The Morse code character \"Slash (/)\" is used to separate individual characters",
+        "c": "In Morse code, the period (.) is used to separate individual words.",
+        "d": "The exclamation mark \"!\" is not used to separate individual characters in Morse code."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Which of the following symbol is not defined inside the ITU recommendation on Morse code?",
+      "answers": {
+        "a": "$",
+        "b": ".",
+        "c": "+",
+        "d": "~"
+      },
+      "explanations": {
+        "a": "The Symbol $ and & is not defined inside the ITU recommendation on Morse code.",
+        "b": "The period (.) is defined in Morse code and represents the letter \"E\".",
+        "c": "The plus symbol (+) is not a standard Morse code character, but it is also not defined inside the ITU recommendation.",
+        "d": "The tilde (~) is not a standard Morse code character, but it is also not defined inside the ITU recommendation."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "When would you typically use a question mark in morse code communication?",
+      "answers": {
+        "a": "To indicate the end of a sentence.",
+        "b": "To represent number series.",
+        "c": "To form the word “Quick”.",
+        "d": "To signal a query or ask a question."
+      },
+      "explanations": {
+        "a": "In Morse code communication, the question mark is not used to indicate the end of a sentence. ",
+        "b": "Morse code primarily uses numbers and numerals to represent number series.",
+        "c": " The question mark is not used to form the word \"Quick\" in Morse code. ",
+        "d": "The primary and typical use of a question mark in Morse code is to signal that a question is being asked or to indicate the presence of a query in the communication. "
+      },
+      "correctAnswer": "d",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What is the Morse code representation for the special character \"Comma (,)\"?",
+      "answers": {
+        "a": ".-.-.-",
+        "b": "--..--",
+        "c": "..--..",
+        "d": "-.-.--"
+      },
+      "explanations": {
+        "a": "The representation \".-.-.-\" does not correspond to the special character \"Comma (,)\" in Morse code. ",
+        "b": "The special character \"Comma (,)\" is represented as \"--..--.\"",
+        "c": "The sequence \"..--..\" does not represent the special character \"Comma (,)\".",
+        "d": "The sequence \"-.-.--\" is not used for the special character \"Comma (,)\"."
+      },
+      "correctAnswer": "b",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Which of the following terms is used to describe the standardized sequences of dots and dashes that represent special characters in Morse code?",
+      "answers": {
+        "a": "Morse codes",
+        "b": "Morse elements",
+        "c": "Special signals",
+        "d": "Morse sequences"
+      },
+      "explanations": {
+        "a": "The standardized sequences of dots and dashes that represent special characters in Morse code are referred to as \"Morse codes.\"",
+        "b": "This option is not the most accurate term to describe the standardized sequences of dots and dashes that represent special characters in Morse code. ",
+        "c": "it doesn't specifically refer to the sequences of dots and dashes used to represent special characters. ",
+        "d": "This term doesn't accurately describe the standardized sequences of dots and dashes that represent special characters in Morse code."
+      },
+      "correctAnswer": "a",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What is the primary function of Apostrophe['] in morse code?",
+      "answers": {
+        "a": "Submitting Words.",
+        "b": "Signaling the end of a message.",
+        "c": "Indicating a question.",
+        "d": "Denoting a possessive form."
+      },
+      "explanations": {
+        "a": "This option is not the primary function of the apostrophe in Morse code. ",
+        "b": "The primary function of an apostrophe in Morse code is not to signal the end of a message.",
+        "c": "The primary function of an apostrophe in Morse code is not to indicate a question.",
+        "d": "Apostrophe indicates the relationship possession  or ownership between the nouns involved."
+      },
+      "correctAnswer": "d",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Morse code syntax was widely used in which industry during its heyday?",
+      "answers": {
+        "a": "Music",
+        "b": "Film production",
+        "c": "Maritime and aviation",
+        "d": "Agriculture"
+      },
+      "explanations": {
+        "a": "Morse code syntax was not widely used in the music industry during its heyday.",
+        "b": "Morse code syntax was not a dominant feature of the film production industry during its heyday.",
+        "c": "Morse code syntax was widely used in the maritime and aviation industries during its heyday for communication and navigation.",
+        "d": "Morse code syntax was not a prevalent or significant part of the agriculture industry during its heyday."
+      },
+      "correctAnswer": "c",
+      "difficulty": "Advanced"
+    }
+    
+  ]
+}
