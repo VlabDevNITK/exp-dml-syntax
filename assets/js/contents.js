@@ -1,7 +1,7 @@
 "use strict";
-const domain = "Domain name here";
-const lab = "Lab name here";
-const exp = "Exp name here";
+const domain = "..";
+const lab = "Disaster Management Lab";
+const exp = "Exploring morse code : Syntax";
 const domainName = document.querySelector(".domainName");
 const labName = document.querySelector(".labName");
 const expName = document.querySelector(".expName");
