@@ -3,7 +3,7 @@
 </p>
 
 ### Special characters 
-<p style="text-align: justify;">Special characters are also known as special symbols or non-alphanumeric characters,they are symbols that are not letters,numerals or standard punctuation marks in a written language.Special characters are not limited to any specific alphabet or language and are often found in international character sets.</p>
+<p style="text-align: justify;">Special characters are also known as special symbols or non-alphanumeric characters, they are symbols that are not letters, numerals or standard punctuation marks in a written language. Special characters are not limited to any specific alphabet or language and are often found in international character sets.</p>
 <p style="text-align: justify;">Each special character in Morse code has a unique sequence of dots and dashes that represents it.These sequences are standardized to ensure consistent communication. </p> 
 
 Basic special characters morse code:  
