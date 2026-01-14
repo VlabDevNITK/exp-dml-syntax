@@ -1,1 +1,346 @@
-/* You CSS goes in here */
+body {
+  background-color: #ccc;
+  color: #222;
+  font: 1.0em helvetica;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  /* margin: 1em 0; */
+}
+
+p {
+  margin: 1em 0;
+}
+
+
+.steptext
+{
+	display:inline;
+	font-size:14px;
+}
+
+.plybtn{
+	position: relative;
+	/* position: absolute;
+	left:300px;
+	top: 150px; */
+	width:70px;
+	height:65px;
+	border-radius:100%;
+	border-color: #000;
+	color: #000;
+	padding-top:30px;
+	background-color: rgb(219, 221, 221);
+	cursor: pointer;
+	font-weight: 600;
+
+}
+.plybtn::before{
+	position: absolute;
+	content: '';
+	border-top: transparent 10px solid;
+	border-bottom: transparent 10px solid;
+	border-left: #000 15px solid;
+	top:45%;
+	left:50%;
+	transform: translate(-40%,-50%);
+
+}
+.plybtn:disabled{
+	width:70px;
+	height:65px;
+	border-radius:100%;
+	border-color: #000;
+	color: #000;
+	padding-top:30px;
+	font-weight: 600;
+	cursor: not-allowed;
+}
+.syntax-ad{
+display: flex;
+justify-content: center;
+}
+.ad{
+	display: none;
+}
+p.morse{
+	position: absolute;
+	left:270px;
+	top: 150px;
+	
+	
+}
+p.dm{
+	border: 2px solid black;
+    padding: 1rem;
+    border-radius: 20%;
+    font-weight: 600;
+	font-size: larger;
+
+}
+.morsePlay
+{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+.hide{
+	display: none;
+}
+.morsedisplay1{
+	font-weight: 700;
+	font-size: 58px;
+	font-family: monospace;
+}
+.main-heading{
+  
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  /* border: 2px solid;
+  border-radius: 0%;
+  margin: 10px 0px 10px 0px; */
+  color: white;
+  font-family: verdana;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.main-canvas{
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+height: inherit;
+}
+#simscreen
+{
+	position: relative;
+	left:0%;
+	top:55%;
+	height: 600px; 
+	width:800px;
+	border:solid 1px;
+}
+.simsubscreen
+{
+  margin: 10px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+#copyright{
+display: flex;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
+
+}
+.incanvas
+{
+	margin:5px 0 0 5px;
+	padding:0;
+}
+.grid-page1{
+  /* display: grid;
+  grid-template-rows: 1fr 1fr auto; */
+  flex-grow: 1;
+}
+#nav{
+
+    align-self: flex-end;
+    margin-right: 10px;
+}
+.container-Cover{
+	display: none;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    max-width: fit-content;
+    margin: 0 auto;
+	border-radius: 2%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transform: scale(1); /* Default scale */
+    transition: transform 0.3s ease;
+  }
+
+#gridButton {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+.del{
+	display: block	;
+}
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+} */
+
+/* button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} */
+
+button:hover {
+    background-color: #dcdcdc;
+}
+
+  /* th, td {
+	padding: 8px;
+  } */
+/* td{
+	display:inline-flex ;
+} */
+  /* button {
+	/* width: 100%; */
+	/* padding: 8px; */
+
+  /* } */ 
+  #selectbutton{
+	width: 58px;
+	padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #selectbutton:hover{
+	background-color: #aca5a5;
+  }
+
+.morseCodeDisplay{
+	position: absolute;
+	border: #000;
+	background-color: antiquewhite;
+	
+}
+.morseCodeDisplay1{
+	position: absolute;
+	border: #000;
+	left: 420px;
+	top: 210px;
+    width: 150px;
+	height:50px;
+	font-weight: 700;
+	font-size: 45px;
+	font-family: monospace;
+
+
+
+}
+.Syntax-back{
+	display: flex;
+	justify-content:center ;
+}
+/* .Syntax-back1{
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.Syntax-back1 img{
+	margin-right: 8px;
+	width: 20%
+	; /* Adjust the width as needed */
+	/* height: auto;
+} */ 
+.back-button {
+	padding: 5px 10px;
+	font-size: 14px;
+	color: black;
+	background-color: #fff;
+	border: ipx solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	
+}
+
+.back-button:hover {
+	background-color:rgb(196, 203, 203);;
+	/* color: #fff; */
+}
+.back-button:disabled{
+	cursor:not-allowed;
+}
+
+.back-button img {
+	width: 16px; 
+	height: auto;
+	margin-right: 5px;
+}
+.selected{
+	position: absolute;
+	left: 220px;
+	top: 150px;
+
+}
+.selctedSyntax{
+	position: absolute;
+	left: 370px;
+	top: 140px;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: solid 1px;
+
+}
+
+.selectbutton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 30px;
+	margin-left: 30px;
+}
+.submitButton{
+    position:relative;
+	left: 45%;
+    margin-top: 20px;
+}
+.Syntax-morse1{
+	display: flex;
+    justify-content: center;
+    /* padding: 1rem; */
+    gap: 1rem;
+    align-items: baseline;
+}
+	/* position:absolute;
+	left:50px;
+	top:50px;
+	height:530px;
+	width:745px; */
+
+/* ONLY do this, when the viewport has a width of at least 500px */
+

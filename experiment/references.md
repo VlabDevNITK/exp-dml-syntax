@@ -15,7 +15,6 @@
     Contributors :
     <ul style="list-style-type: none;">
       <li>Varun | NITK</li>
-      <li>Anusha B Salian | NITK</li>
       <li>shradha shetty | NITK</li>
     </ul></td>
   </tr>

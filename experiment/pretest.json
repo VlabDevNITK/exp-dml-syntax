@@ -4,8 +4,8 @@
     {
       "question": "What are special characters in Morse code also known as?",
       "answers": {
-        "a": " Alphanumeric characters",
-        "b": " Punctuation marks",
+        "a": "Alphanumeric characters",
+        "b": "Punctuation marks",
         "c": "Symbols",
         "d": "Letters"
       },
@@ -13,7 +13,7 @@
         "a": "This option is incorrect. Special characters in Morse code are not considered alphanumeric characters.",
         "b": "This option is partially correct. Special characters in Morse code can be considered a subset of punctuation marks.",
         "c": "Special characters in Morse code are also known as symbols.",
-        "d": "This option is incorrect. Letters refer to the standard characters of the alphabet. "
+        "d": "This option is incorrect. Letters refer to the standard characters of the alphabet."
       },
       "correctAnswer": "c",
       "difficulty": "Beginner"
@@ -28,9 +28,9 @@
       },
       "explanations": {
         "a": "The standardization of sequences for special characters in Morse code is not intended to make communication more complex.",
-        "b": "The standardization of Morse code is not designed to confuse operators. ",
+        "b": "The standardization of Morse code is not designed to confuse operators.",
         "c": "The sequences for special characters in Morse code are standardized to ensure consistent and clear communication. Standardization helps prevent ambiguity and confusion during Morse code transmissions.",
-        "d": "Creating ambiguity is the opposite of the goal of Morse code standardization.  "
+        "d": "Creating ambiguity is the opposite of the goal of Morse code standardization."
       },
       "correctAnswer": "c",
       "difficulty": "Beginner"
@@ -39,7 +39,7 @@
       "question": "Each special character in Morse code is represented by a unique sequence of:",
       "answers": {
         "a": "Numbers and letters",
-        "b": "Dots and dashe",
+        "b": "Dots and dashes",
         "c": "Special symbols",
         "d": "Alphanumeric characters"
       },
@@ -47,22 +47,22 @@
         "a": "Special characters in Morse code are not represented by numbers and letters.",
         "b": "Each special character in Morse code is represented by a unique sequence of dots (.) and dashes (-).",
         "c": "The term \"special symbols\" might be a bit broad.",
-        "d": " Special characters are not alphanumeric characters."
+        "d": "Special characters are not alphanumeric characters."
       },
       "correctAnswer": "b",
       "difficulty": "Beginner"
     },
     {
-      "question": "Why do we use exclamation mark[!]?",
+      "question": "Why do we use the exclamation mark [!]? ",
       "answers": {
-        "a": "it is used for questioning.",
-        "b": "it is used to convey a strong emphasis or excitement.",
-        "c": "it is used to concatenate characters. ",
-        "d": "it is used to continue a line."
+        "a": "It is used for questioning.",
+        "b": "It is used to convey a strong emphasis or excitement.",
+        "c": "It is used to concatenate characters.",
+        "d": "It is used to continue a line."
       },
       "explanations": {
-        "a": "In Morse code, the exclamation mark \"!\" is not used to indicate questioning. ",
-        "b": "Making it clear that the sender wants to convey a strong emotion and sense of urgency in the communication.",
+        "a": "In Morse code, the exclamation mark \"!\" is not used to indicate questioning.",
+        "b": "It is used to convey a strong emotion and sense of urgency in the communication.",
         "c": "In Morse code, the exclamation mark is not used for concatenation.",
         "d": "In Morse code, the exclamation mark is not used to continue a line."
       },
@@ -70,16 +70,16 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "Why do we use the question mark[?] symbol?",
+      "question": "Why do we use the question mark [?] symbol?",
       "answers": {
-        "a": "it is used for deleting a text.",
-        "b": "it is used to answer a question.",
-        "c": "it is used to seek clarification or enquire.",
-        "d": "it is used to end a sentence."
+        "a": "It is used for deleting text.",
+        "b": "It is used to answer a question.",
+        "c": "It is used to seek clarification or enquire.",
+        "d": "It is used to end a sentence."
       },
       "explanations": {
         "a": "In Morse code, the question mark symbol \"?\" is not used for deleting text.",
-        "b": "Morse code symbols do not typically represent the act of answering questions. ",
+        "b": "Morse code symbols do not typically represent the act of answering questions.",
         "c": "The [?] symbol is employed to seek clarification or enquire about information.",
         "d": "The period (.) and other punctuation marks are typically used to indicate the end of a sentence in Morse code."
       },
@@ -87,7 +87,7 @@
       "difficulty": "Beginner"
     },
     {
-      "question": "For which Symbol is there no standard representation in Morse code?",
+      "question": "For which symbol is there no standard representation in Morse code?",
       "answers": {
         "a": "/",
         "b": ".",
@@ -95,10 +95,10 @@
         "d": "!"
       },
       "explanations": {
-        "a": "The standardization of sequences for special characters in Morse code is not intended to make communication more complex.",
-        "b": "There is a standard representation in Morse code for the \".\" symbol, which is \".-.-.-.\"",
-        "c": "there is a standard representation in Morse code for the \"!\" symbol, which is \"-.-.--.\"",
-        "d": "There is no standard representation on exclamation mark in morse code."
+        "a": "The slash (/) has a standard representation in Morse code.",
+        "b": "There is a standard representation in Morse code for the \".\" symbol, which is \".-.-.-\".",
+        "c": "There is a standard representation in Morse code for the \"+\" symbol, which is \".-.-.\".",
+        "d": "There is no standard representation for the exclamation mark in Morse code."
       },
       "correctAnswer": "d",
       "difficulty": "Intermediate"
@@ -112,8 +112,8 @@
         "d": "Exclamation Mark (!)"
       },
       "explanations": {
-        "a": "In Morse code, the question mark is not used to separate individual words.",
-        "b": "The Morse code character \"Slash (/)\" is used to separate individual characters",
+        "a": "In Morse code, the question mark is not used to separate individual characters.",
+        "b": "The Morse code character \"Slash (/)\" is used to separate individual characters.",
         "c": "In Morse code, the period (.) is used to separate individual words.",
         "d": "The exclamation mark \"!\" is not used to separate individual characters in Morse code."
       },
@@ -121,7 +121,7 @@
       "difficulty": "Intermediate"
     },
     {
-      "question": "Which of the following symbol is not defined inside the ITU recommendation on Morse code?",
+      "question": "Which of the following symbols is not defined inside the [ITU recommendation on Morse code](https://www.itu.int/rec/R-REC-M.1677-1-200509-I/en)?",
       "answers": {
         "a": "$",
         "b": ".",
@@ -129,16 +129,16 @@
         "d": "~"
       },
       "explanations": {
-        "a": "The Symbol $ and & is not defined inside the ITU recommendation on Morse code.",
+        "a": "The symbol $ is not defined inside the ITU recommendation on Morse code.",
         "b": "The period (.) is defined in Morse code and represents the letter \"E\".",
-        "c": "The plus symbol (+) is not a standard Morse code character, but it is also not defined inside the ITU recommendation.",
-        "d": "The tilde (~) is not a standard Morse code character, but it is also not defined inside the ITU recommendation."
+        "c": "The plus symbol (+) is defined in Morse code.",
+        "d": "The tilde (~) is not defined inside the ITU recommendation on Morse code."
       },
       "correctAnswer": "a",
       "difficulty": "Intermediate"
     },
     {
-      "question": "When would you typically use a question mark in morse code communication?",
+      "question": "When would you typically use a question mark in Morse code communication?",
       "answers": {
         "a": "To indicate the end of a sentence.",
         "b": "To represent number series.",
@@ -146,10 +146,10 @@
         "d": "To signal a query or ask a question."
       },
       "explanations": {
-        "a": "In Morse code communication, the question mark is not used to indicate the end of a sentence. ",
+        "a": "In Morse code communication, the question mark is not used to indicate the end of a sentence.",
         "b": "Morse code primarily uses numbers and numerals to represent number series.",
-        "c": " The question mark is not used to form the word \"Quick\" in Morse code. ",
-        "d": "The primary and typical use of a question mark in Morse code is to signal that a question is being asked or to indicate the presence of a query in the communication. "
+        "c": "The question mark is not used to form the word \"Quick\" in Morse code.",
+        "d": "The primary and typical use of a question mark in Morse code is to signal that a question is being asked or to indicate the presence of a query in the communication."
       },
       "correctAnswer": "d",
       "difficulty": "Intermediate"
@@ -163,8 +163,8 @@
         "d": "-.-.--"
       },
       "explanations": {
-        "a": "The representation \".-.-.-\" does not correspond to the special character \"Comma (,)\" in Morse code. ",
-        "b": "The special character \"Comma (,)\" is represented as \"--..--.\"",
+        "a": "The representation \".-.-.-\" does not correspond to the special character \"Comma (,)\" in Morse code.",
+        "b": "The special character \"Comma (,)\" is represented as \"--..--\".",
         "c": "The sequence \"..--..\" does not represent the special character \"Comma (,)\".",
         "d": "The sequence \"-.-.--\" is not used for the special character \"Comma (,)\"."
       },
@@ -181,26 +181,26 @@
       },
       "explanations": {
         "a": "The standardized sequences of dots and dashes that represent special characters in Morse code are referred to as \"Morse codes.\"",
-        "b": "This option is not the most accurate term to describe the standardized sequences of dots and dashes that represent special characters in Morse code. ",
-        "c": "it doesn't specifically refer to the sequences of dots and dashes used to represent special characters. ",
+        "b": "This option is not the most accurate term to describe the standardized sequences of dots and dashes that represent special characters in Morse code.",
+        "c": "It doesn't specifically refer to the sequences of dots and dashes used to represent special characters.",
         "d": "This term doesn't accurately describe the standardized sequences of dots and dashes that represent special characters in Morse code."
       },
       "correctAnswer": "a",
       "difficulty": "Advanced"
     },
     {
-      "question": "What is the primary function of Apostrophe['] in morse code?",
+      "question": "What is the primary function of the apostrophe ['] in Morse code?",
       "answers": {
-        "a": "Submitting Words.",
+        "a": "Submitting words.",
         "b": "Signaling the end of a message.",
         "c": "Indicating a question.",
         "d": "Denoting a possessive form."
       },
       "explanations": {
-        "a": "This option is not the primary function of the apostrophe in Morse code. ",
+        "a": "This option is not the primary function of the apostrophe in Morse code.",
         "b": "The primary function of an apostrophe in Morse code is not to signal the end of a message.",
         "c": "The primary function of an apostrophe in Morse code is not to indicate a question.",
-        "d": "Apostrophe indicates the relationship possession  or ownership between the nouns involved."
+        "d": "The apostrophe indicates the relationship of possession or ownership between the nouns involved."
       },
       "correctAnswer": "d",
       "difficulty": "Advanced"
@@ -222,6 +222,5 @@
       "correctAnswer": "c",
       "difficulty": "Advanced"
     }
-    
   ]
 }

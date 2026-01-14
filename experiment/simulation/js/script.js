@@ -1,67 +1,74 @@
 let simsubscreennum=0;
 let temp=0;
 
-
-	
 function navNext()
 {
 	
 	for(temp=0;temp<2;temp++)
 	{ 
-		document.getElementById("canvas"+temp).style.visibility="hidden";
+		document.getElementById("canvas"+temp).style.display="none";
 	}
 	
 	simsubscreennum+=1;
 	//
-	document.getElementById("canvas"+simsubscreennum).style.visibility="visible";
-	document.getElementById("nextButton").style.visibility="hidden";
-	magic();
+	document.getElementById("canvas"+simsubscreennum).style.display="block";
+	document.getElementById("nextButton").style.display="none";
+	// magic();
 
 	
 	
 }
 
-function animatearrow()
-{
-    if (document.getElementById('arrow1').style.visibility=="hidden")
-        document.getElementById('arrow1').style.visibility="visible";
-    else
-        document.getElementById('arrow1').style.visibility="hidden";
-}
+// function animatearrow()
+// {
+//     if (document.getElementById('arrow1').style.visibility=="hidden")
+//         document.getElementById('arrow1').style.visibility="visible";
+//     else
+//         document.getElementById('arrow1').style.visibility="hidden";
+// }
 
-function myStopFunction() 
-{
-     clearInterval(myInt);
-     document.getElementById('arrow1').style.visibility="hidden";
-}
+// function myStopFunction() 
+// {
+//      clearInterval(myInt);
+//      document.getElementById('arrow1').style.visibility="hidden";
+// }
 
-function blinkArrow(l,t,d,h)
-{
-	myInt = setInterval(function(){ animatearrow(); }, 500);
-	document.getElementById('arrow1').style="visibility:visible ;position:absolute; left:"+l+"px; top:"+t+"px; height:"+h+"px; z-index: 10;";
-	document.getElementById("arrow1").style.WebkitTransform = "rotate("+d+"deg)"; 
-	document.getElementById("arrow1").style.msTransform = "rotate("+d+"deg)";
-	document.getElementById("arrow1").style.transform = "rotate("+d+"deg)";
-}
+// function blinkArrow(l,t,d,h)
+// {
+// 	myInt = setInterval(function(){ animatearrow(); }, 500);
+// 	document.getElementById('arrow1').style="visibility:visible ;position:absolute; left:"+l+"px; top:"+t+"px; height:"+h+"px; z-index: 10;";
+// 	document.getElementById("arrow1").style.WebkitTransform = "rotate("+d+"deg)"; 
+// 	document.getElementById("arrow1").style.msTransform = "rotate("+d+"deg)";
+// 	document.getElementById("arrow1").style.transform = "rotate("+d+"deg)";
+// }
 
-function magic()
-{
-	if(simsubscreennum==1)
-	{
-		blinkArrow(520,270,360,40);
+// function magic()
+// {
+// 	if(simsubscreennum==1)
+// 	{
+// 		blinkArrow(520,270,360,40);
 		
-	}
+// 	}
 	
 	
-}
+// }
 var morseTimeout;
 var isPlaying = false;
-const initialX = 0; // Initial X position
-const initialY = 0; // Initial y position
-
+const initialX = 0; 
+const initialY = 0; 
+const morsePlayElements = document.getElementsByClassName('morsePlay');
 function buttonClick(row, column) {
 	
 	
+  // document.getElementById('morse-Cover').style.display ="block";  
+	Array.from(morsePlayElements).forEach(element => {
+	
+	index = 0;
+	isPlaying = false;
+	element.classList.remove('hide');	
+	document.getElementById("morseCodeDisplay1").innerHTML = "";
+
+});
 	// Dictionary for Morse code names and values
 	var morseCodes = {
 	 "1-1": { name: "/", value: "-..-." },
@@ -84,178 +91,141 @@ function buttonClick(row, column) {
 	 "5-2": { name: "@", value: ".--.-." }
 	 
    };
+   var playButton=document.getElementById('ply');   
+   var buttonKey = row + "-" + column;
+   var morseCode =  morseCodes[buttonKey].value;
+   var morseCodeName =   morseCodes[buttonKey].name ;
    var playButton = document.getElementById('ply');
-// var playButton=document.getElementById('ply');
-   
-	 var buttonKey = row + "-" + column;
-	 var morseCode =  morseCodes[buttonKey].value;
-	 var morseCodeName =   morseCodes[buttonKey].name ;
+   var backButton = document.getElementById('back-button');	
+   var selectLabel = document.getElementById('selectSyntax1');	 
 	
-	 
-	// clearTimeout(window.morseTimeout);
-	 
-      document.getElementById("dm1").innerHTML=morseCodeName;
-	  document.getElementById("selctedSyntax").innerHTML=morseCodeName;
-	//   document.getElementById("morseCodeDisplay").innerHTML =  morseCode;
-document.getElementById('Syntax').innerHTML=morseCodeName;
-	  // Play Morse code audio
-	  console.log(buttonKey)
+
+   document.getElementById('ad').style.display ="block";  
+   document.getElementById("dm1").innerHTML=morseCodeName;
+  //  document.getElementById("selctedSyntax").innerHTML=morseCodeName;
+   document.getElementById('Syntax').innerHTML=morseCodeName;
+//    backButton.style.visibility ="visible";
+   selectLabel.innerHTML = "Selected Syntax";
+   document.getElementById('container-Cover').style.display = "none"
+   document.getElementById('ply').addEventListener('click',function(){
+	
+	if (!isPlaying) {
+		
+		playButton.disabled = true;
+		// backButton.disabled = true;
+			index = 0;
+
+		// Play Morse code audio
+		playMorseCodeAudio(morseCode);
+
+		// Display Morse code sequence
+		displayMorseCodeSequence(morseCode);
+	}
+});
+	//   console.log(buttonKey)
 	  clearTimeout(morseTimeout);
-	  document.getElementById('repeat').addEventListener('click',function(){
-		
-		morseCode=0;
-
-	  });
-	  document.getElementById('ply').addEventListener('click',function(){
-	
-		if (!isPlaying) {
-            
-            playButton.disabled = true;
-
-	            index = 0;
-
-            // Play Morse code audio
-            playMorseCodeAudio(morseCode);
-
-            // Display Morse code sequence
-            displayMorseCodeSequence(morseCode);
-        }
-    });
-	  
 	 
 }
 
-function displayMorseCodeSequence(morseCode) {
-	isPlaying = true; 
-	var playButton=document.getElementById('ply');
-	console.log()
-	// var Repeatbutton=document.getElementById('repeat')
-console.log('playing');
-    
+function displayMorseCodeSequence(morseCode) {  isPlaying = true; 
+    var playButton = document.getElementById('ply');
     var pTag = document.getElementById("morseCodeDisplay1");
-	pTag.innerHTML ="";
-	 index = 0;
+    pTag.innerHTML = "";
+    index = 0;
+
     function displayNextSymbol() {
-		
-		// playButton.disabled=true;
-
         if (index < morseCode.length) {
-             const symbol = morseCode[index];
-
-            // Display the symbol in the <p> tag
+            const symbol = morseCode[index];
             pTag.innerHTML += symbol;
-
             index++;
-			console.log(index);
-            // Set the timeout for the next symbol
-			morseTimeout = setTimeout(displayNextSymbol, 1000);
-        //    setTimeout(displayNextSymbol, 1000); // 1 second interval
+            morseTimeout = setTimeout(displayNextSymbol, 1000);
         } else {
-            // Enable the play button when Morse code display is complete
-            
-			playButton.disabled = false;
-			isPlaying = false; 
-            document.getElementById('repeat').style.display="block";
+            playButton.disabled = false;
+            isPlaying = false; 
+            // document.getElementById('repeat').style.display = "block";
         }
-		// document.getElementById('repeat').addEventListener('click',function(){
-		// 	symbol=0;
-		//   });
-		
     }
-
-    // Clear the content of the <p> tag
-
-	pTag.innerHTML ="";
-    // Start displaying Morse code sequence
     displayNextSymbol();
-	// clearTimeout(displayNextSymbol);
+	
 }
 
+
+function goBack(){
+	if (!isPlaying) {
+        var selectLabel = document.getElementById('selectSyntax1');
+        selectLabel.innerHTML = "Select the syntax:";
+        document.getElementById('container-Cover').style.display = "block";
+        document.getElementById('ad').style.display = "none";
+
+        index = 0;
+        isPlaying = false;
+
+        Array.from(morsePlayElements).forEach(element => {
+            element.classList.add('hide');
+        });
+	}
+}
 
 function playMorseCodeAudio(morseCode) {
 	
 	let index = 0;
-	
 		function playNextSymbol() {
-			// const intervalDuration = 1000;
-			// document.getElementById('ply').addEventListener('click',function(){
 			if (index < morseCode.length) {
 				const symbol = morseCode[index];
-				
 				const Context = new AudioContext(); 
-
-
-		     var oscillator = Context.createOscillator();
-		     oscillator.frequency.value=600;
-			 oscillator.type = 'sine';
-		     oscillator.connect(Context.destination);
-		      oscillator.start();
-	
+				var oscillator = Context.createOscillator();
+				oscillator.frequency.value=600;
+				oscillator.type = 'sine';
+				oscillator.connect(Context.destination);
+				oscillator.start();
 				if (symbol === '.') {
 					setTimeout(function() { oscillator.stop();},100);
-				
+					
 				} else if (symbol === '-') {
 					setTimeout(function() { oscillator.stop();},300);
-			
+					
 				}
-	console.log(symbol);
 				index++;
-	console.log(index);
-				// Set the timeout for the next symbol
-				morseTimeout = setTimeout(playNextSymbol, 1000);
-				// setTimeout(playNextSymbol, 1000); // Adjust the delay as needed
+				morseTimeout = setTimeout(playNextSymbol, 1000);				
 			}
-		// })
+
 		}
-	
-		// Start playing Morse code
 		playNextSymbol();
-		// clearTimeout(playNextSymbol)
+		
 	}
+	
 	function Table(){
-         document.getElementById('container').style.visibility="visible";
+		document.getElementById('clickHidden').style.display ="none";
+         document.getElementById('container-Cover').style.display ="block";
 
 		 
 	}
-	function ButtonMorse()
-	{
-		// document.getElementById('selectbutton').addEventListener('click',function(){
-			console.log('imhere')
-			document.getElementById('submit').style.visibility="visible";
-			document.getElementById('Syntax').style.visibility="visible";
-			
-		//  });
-		document.getElementById('submit').addEventListener('click',function(){
-			document.getElementById('container').style.visibility="hidden";
-			document.getElementById('submit').style.visibility="hidden";
-			document.getElementById('Syntax').style.visibility="hidden";
-		});
-	}
-
-
-function clickHidden()
-{
-	document.getElementById('clickHidden').style.visibility="hidden";
-}
-
-function movingTable(){
-	const div = document.getElementById('container');
-
-	// Set the desired position (adjust these values as needed)
-	const targetX = 0;
-	const targetY = 45;
-
-	// Apply the new position using the transform property
-	div.style.transform = `translate(${targetX}px, ${targetY}px)`;
+function ButtonMorse(){
+	document.getElementById('Syntax').style.display="block";
 	
-} 
-
-function resetDiv() {
-	const div = document.getElementById('container');
-
-	// Reset the div to the initial position
-	div.style.transform = `translate(${initialX}px, ${initialY}px)`;
 }
+
+
+
+
+// function movingTable(){
+// 	const div = document.getElementById('container-Cover');
+
+	
+// 	const targetX = 0;
+// 	const targetY = 45;
+
+	
+// 	div.style.transform = `translate(${targetX}px, ${targetY}px)`;
+	
+// } 
+
+// function resetDiv() {
+// 	const div = document.getElementById('container-Cover');
+
+// 	// Reset the div to the initial position
+// 	div.style.transform = `translate(${initialX}px, ${initialY}px)`;
+// }
 function repeat(){
 	
 	console.log("clickedrepeat");
@@ -272,7 +242,7 @@ document.getElementById("repeat").style.display="none";
 document.getElementById("morseCodeDisplay1").innerHTML = "";
 document.getElementById("dm1").innerHTML = "";
 document.getElementById("selctedSyntax").innerHTML = "";
-document.getElementById('clickHidden').style.visibility="visible";
+document.getElementById('clickHidden').style.d="visible";
 index = 0;
 isPlaying = false;
 clearTimeout(morseTimeout);
